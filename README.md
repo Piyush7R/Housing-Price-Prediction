@@ -22,6 +22,7 @@
   - Normalizes numerical features.
 - **Dataset Splitting:**
   - Splits data into training and testing subsets using `train_test_split` from scikit-learn.
+  - Splitted 85% data into training subsets and 15% data into testing datasets.
 - **Model Training:**
   - Implements regression models to predict housing prices based on input features.
 - **Evaluation:**
@@ -61,8 +62,15 @@
 - **Predicted Housing Prices:**
   - For the test dataset.
 - **Model Performance Metrics:**
-  - Mean Squared Error (MSE).
-  - R-squared.
+  - **Linear Regression:**
+    - Mean Squared Error (MSE): *0.012482087416217626*
+    - R-squared: *0.6515389979705328*
+  - **KNN:**
+    - Mean Squared Error (MSE): *0.011602844634071978*
+    - R-squared: *0.6760847178230933*
+  - **Decision Tree Regressor:**
+    - Mean Squared Error (MSE): *0.020622384337199155*
+    - R-squared: *0.4242872629588772*
 - **Visualizations:**
   - Analyze feature importance and predictions.
 
